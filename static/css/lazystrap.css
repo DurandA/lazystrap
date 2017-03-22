@@ -515,6 +515,13 @@ pre {
     overflow-x: auto;
 }
 
+code {
+    border: 1px solid #e2e2e2;
+    /*background-color: #684f4f;*/
+    background-color: white;
+    color: #777;
+}
+
 .docutils dd {
     padding-left: 3em;
     margin-bottom: 10px;
