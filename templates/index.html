@@ -9,7 +9,7 @@
 {% endblock %}
           <div class="post-content">
             {% include "searchform.html" %}
-            {% for article in articles[:7] %}
+            {% for article in articles[:25] %}
             <div class="recent-post-header">
               <h4><a class="header-link" href="{{ SITEURL }}/{{ article.url }}">{{article.title}}<span class="link">&raquo;</span></a></h4>          
               <div class="tags">
